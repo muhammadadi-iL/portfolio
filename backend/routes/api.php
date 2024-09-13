@@ -17,25 +17,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//    return $request->user();
-//});
-//Route::get('/test', function () {
-//    return response()->json(['message' => 'Test route working']);
-//});
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'authenticate']);
-Route::post('/logout', [AuthController::class, 'logout']);
-//Route::middleware('api')->group(function () {
-//});
-//Route::get('/user-logout', [UserLoginController::class, 'userLogout']);
-//Route::get('/test-auth',  function () {
-//    return response()->json(['message' => 'Authenticated successfully']);
-//});
-Route::middleware('auth:sanctum')->get('/test-auth', function () {
-    return response()->json(['message' => 'Authenticated successfully']);
-});
 
-//Route::middleware('auth:api')->group(function () {
-//    Route::get('/user-logout', [LoginController::class, 'userLogout']);
-//});
+Route::middleware('auth:api')->group(function () {
+    Route::get('/get-user', [AuthController::class, 'getAuthUser']);
+    Route::post('/logout', [AuthController::class, 'logout']);
+});

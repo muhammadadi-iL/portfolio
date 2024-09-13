@@ -84,10 +84,6 @@
                                     "password": {
                                         "type": "string",
                                         "example": "12345678"
-                                    },
-                                    "role_id": {
-                                        "type": "integer",
-                                        "example": 2
                                     }
                                 }
                             }
@@ -153,12 +149,44 @@
                     }
                 }
             }
+        },
+        "/portfolio/backend/public/api/get-user": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "Auth User",
+                "operationId": "27d97335e2cabc4fb47beb07e457f9f0",
+                "responses": {
+                    "200": {
+                        "description": "Auth User",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "success": {
+                                            "description": "A boolean value.",
+                                            "type": "boolean",
+                                            "example": true
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "tags": [
         {
             "name": "Authentication",
             "description": "Authentication"
+        },
+        {
+            "name": "User",
+            "description": "User"
         }
     ],
     "components": {

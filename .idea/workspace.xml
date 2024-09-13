@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a7769ae-b4a7-4f04-8a44-769c79e4754f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/public/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/ISSUE_TEMPLATE/bug.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/ISSUE_TEMPLATE/feature-request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/workflows/deploy-demos.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/workflows/handle-new-issue-comment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/workflows/handle-new-issue.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.github/workflows/issue-staler.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/hire-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.vscode/custom.code-snippets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/avatars/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/aviato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/bitbank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/gumroad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/cards/zipcar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/illustrations/characters/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/illustrations/characters/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/illustrations/objects/tree-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/illustrations/objects/tree-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/american-bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/asana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/aws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/behance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/citi-bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/digital-ocean.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/dribbble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/mailchimp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/slack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/logos/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/pages/auth-v1-mask-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/pages/auth-v1-mask-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/pages/misc-mask-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/pages/misc-mask-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/images/pages/trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/components/mui/Avatar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/components/mui/IconButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/components/option-menu/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/contexts/settingsContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/hooks/useImageVariant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/hooks/useObjectCookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/hooks/useSettings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/styles/stepper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/styles/table.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/styles/vertical/menuItemStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/styles/vertical/menuSectionStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/styles/vertical/navigationCustomStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/svg/Logo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/tailwind/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/colorSchemes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/customShadows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/accordion.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/alerts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/autocomplete.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/avatar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/backdrop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/badges.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/breadcrumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/button-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/checkbox.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/chip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/drawer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/fab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/form-control-label.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/icon-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/paper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/radio.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/rating.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/select.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/snackbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/table-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/toggle-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/overrides/typography.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/shadows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/spacing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/theme/typography.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@core/utils/serverHelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/BlankLayout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/LayoutWrapper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/VerticalLayout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/components/vertical/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/components/vertical/LayoutContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/components/vertical/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/styles/shared/StyledMain.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/styles/vertical/StyledFooter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/styles/vertical/StyledHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@layouts/utils/layoutClasses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/RouterLink.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/Menu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/MenuButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/MenuItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/MenuSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/NavHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/SubMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/SubMenuContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/components/vertical-menu/VerticalNav.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/contexts/verticalNavContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/defaultConfigs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/hooks/useMediaQuery.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/hooks/useVerticalMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/hooks/useVerticalNav.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledBackdrop.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledMenuIcon.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledMenuLabel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledMenuPrefix.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledMenuSectionLabel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledMenuSuffix.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/StyledSubMenuContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/styles.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalMenuItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalMenuSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalNav.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalNavBgColorContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalNavContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/styles/vertical/StyledVerticalNavExpandIcon.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/svg/ChevronRight.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/svg/Close.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/utils/menuClasses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/utils/menuUtils.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/@menu/vertical-menu/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/error/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/forgot-password/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/login/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/register/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(blank-layout-pages)/under-maintenance/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(dashboard)/account-settings/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(dashboard)/card-basic/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(dashboard)/form-layouts/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(dashboard)/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/(dashboard)/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/[...not-found]/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/app/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/assets/iconify-icons/bundle-icons-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/DirectionalIcon.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/Form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/Illustrations.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/Link.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/Providers.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/card-statistics/Vertical.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/shared/Logo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/shared/ModeDropdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/shared/UserDropdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/shared/search/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/FooterContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/NavToggle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/NavbarContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/Navigation.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/layout/vertical/VerticalMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/stepper-dot/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/stepper-dot/styles.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/theme/ModeChanger.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/theme/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/theme/mergedTheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/theme/userTheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/upgrade-to-pro-button/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/components/upgrade-to-pro-button/styles.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/configs/primaryColorConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/configs/themeConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/libs/ApexCharts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/libs/styles/AppReactApexCharts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/services/auth.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/services/global.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/utils/rgbaToHex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/ForgotPassword.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/NotFound.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/Register.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/account/AccountDelete.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/account/AccountDetails.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/account/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/connections/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/account-settings/notifications/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardFacebook.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardHorizontalRatings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardInfluencingInfluencer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardInfluencingInfluencerWithImg.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardLifetimeMembership.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardLinkedIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardMobile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardSupport.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardTwitter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardUser.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardVerticalRatings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardWatch.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardWithCollapse.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardWithTabs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/card-basic/CardWithTabsCenter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/Award.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/DepositWithdraw.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/DistributedColumnChart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/LineChart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/SalesByCountries.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/Table.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/TotalEarning.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/Transactions.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/dashboard/WeeklyOverview.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/form-layouts/FormLayoutsAlignment.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/form-layouts/FormLayoutsBasic.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/form-layouts/FormLayoutsIcons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/src/views/pages/misc/UnderMaintenance.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/javascript-version/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/AuthenticateApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/AuthenticateApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/storage/api-docs/api-docs.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/storage/api-docs/api-docs.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/backend/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/backend/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/backend/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/backend/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/backend/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/backend/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/backend/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/backend/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/backend/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/backend/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/backend/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/backend/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/backend/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/backend/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/backend/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/backend/vendor/darkaonline/l5-swagger" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/backend/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/backend/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/backend/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/backend/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/backend/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/backend/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/backend/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/backend/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/backend/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/config" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/backend/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/backend/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/backend/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/backend/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/backend/vendor/spatie/error-solutions" />
+      <path value="$PROJECT_DIR$/backend/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/backend/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/backend/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/backend/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/backend/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/backend/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/backend/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/backend/vendor/composer" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/backend/vendor/prettus/l5-repository" />
+      <path value="$PROJECT_DIR$/backend/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/backend/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/backend/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/backend/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/backend/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/backend/vendor/prettus/laravel-validation" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/backend/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/backend/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/backend/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/backend/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/backend/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/backend/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/backend/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/backend/vendor/paragonie/constant_time_encoding" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lzArdhYHc7r7EjS37GJAHqxfMJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/practice-app/admin/src/pages/events",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Downloads\\php-storm\\PhpStorm 2023.3.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\practice-app\admin\src\pages\events" />
+      <recent name="C:\xampp\htdocs\practice-app\admin\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\practice-app\admin\src\pages\events" />
+      <recent name="C:\xampp\htdocs\practice-app\admin\src\pages\cms" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/backend/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.15026.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a7769ae-b4a7-4f04-8a44-769c79e4754f" name="Changes" comment="" />
+      <created>1726172731037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726172731037</updated>
+      <workItem from="1726172732137" duration="14045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

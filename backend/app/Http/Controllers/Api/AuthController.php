@@ -90,17 +90,25 @@ class AuthController extends Controller
                 ]);
             }
 
-            if (auth()->attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
+            if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
                 $auth_user = Auth::user();
                 $user_login_token = JWTAuth::fromUser($auth_user);
                 $user = User::select('id', 'name', 'email')->where('id', auth()->user()->id)->first();
                 $user->save();
 
-                $userData = User::find(auth()->user()->id);
+                $userData = User::find(Auth::id());
+                $userData = $userData->only([
+                    'id',
+                    'user_name',
+                    'name',
+                    'email',
+                    'profile_photo_url',
+                ]);
+
                 if ($userData) {
-                    foreach ($userData->getAttributes() as $key => $value) {
+                    foreach ($userData as $key => $value) {
                         if (is_null($value)) {
-                            $userData->{$key} = "";
+                            $userData[$key] = "";
                         }
                     }
                 }
@@ -147,11 +155,7 @@ class AuthController extends Controller
      *                         "password": {
      *                             "type": "string",
      *                             "example": "12345678",
-     *                         },
-     *                          "role_id": {
-     *                              "type": "integer",
-     *                              "example": 2,
-     *                          },
+     *                         }
      *                     },
      *                 },
      *             },
@@ -237,8 +241,34 @@ class AuthController extends Controller
      */
     public function logout(): JsonResponse
     {
-        Auth::logout();
-        return response()->json(['message' => 'Successfully logged out']);
+        try {
+            $token = JWTAuth::getToken();
+            if(!empty($token)) {
+
+                JWTAuth::invalidate($token);
+
+                $response = response()->json([
+                    'success' => true,
+                    'message' => 'Logged out successfully.',
+                ]);
+
+                $response->withCookie(cookie()->forget('token'));
+
+                Auth::logout();
+
+                return $response;
+            } else {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'User not found.',
+                ], 401);
+            }
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to logout, please try again.',
+            ], 500);
+        }
     }
 
     public function refresh(): JsonResponse
@@ -350,6 +380,67 @@ class AuthController extends Controller
             return APIResponse::success('Password reset Successfully', [], 200);
         } else {
             throw new \Exception('User does not exist');
+        }
+    }
+
+    /**
+     * @OA\Get(
+     *     path="/portfolio/backend/public/api/get-user",
+     *     summary="Auth User",
+     *     tags={"User"},
+     *     responses={
+     *         @OA\Response(
+     *             response=200,
+     *             description="Auth User",
+     *             @OA\JsonContent(
+     *                 @OA\Property(
+     *                     property="success",
+     *                     type="boolean",
+     *                     example=true,
+     *                     description="A boolean value."
+     *                 ),
+     *             ),
+     *         ),
+     *     },
+     * )
+     */
+    public function getAuthUser(): JsonResponse
+    {
+        try {
+            $user = Auth::user();
+
+            $userData = $user->only([
+                'id',
+                'user_name',
+                'name',
+                'email',
+                'profile_photo_url',
+            ]);
+
+            if ($userData) {
+                foreach ($userData as $key => $value) {
+                    if (is_null($value)) {
+                        $userData[$key] = "";
+                    }
+                }
+            }
+
+            if (!$userData) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'User not found.',
+                ], 401);
+            }
+
+            return response()->json([
+                'success' => true,
+                'user' => $userData
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Token is invalid or expired.',
+            ], 401);
         }
     }
 }
